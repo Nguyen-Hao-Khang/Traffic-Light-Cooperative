@@ -26,13 +26,16 @@ This project implements a sophisticated traffic light controller for a crossroad
 | **Push Buttons** | 3 | Mode Select, Adjust, Set |
 | **Software** | - | Proteus Simulation Software & STM32CubeIDE |
 
+## Circuit Schematic
+The system's electrical design and logic flow can be viewed online:
+* 🌐 **Interactive Diagram**: [View on Draw.io](https://app.diagrams.net/?url=https://drive.google.com/file/d/1U5ejvDiGQxj9fWeVYC71P-c48y6u7FNi/view?usp=sharing)
+
 ---
 
 ## System Architecture
 The software is organized into modular components to ensure clean code and easy maintenance:
 
-
-
+* **`global`**: Centralized storage for global variables, system-wide definitions, and flags (e.g., `timer_flag`) to synchronize data between different modules.
 * **`input_reading`**: Handles hardware-level debouncing and stable button state detection.
 * **`input_processing`**: Manages the system Finite State Machine (FSM) for logic switching between modes.
 * **`led_display`**: Controls the traffic light power states and manages 7-segment multiplexing.
@@ -41,7 +44,7 @@ The software is organized into modular components to ensure clean code and easy 
 ---
 
 ## How to Run
-1.  **Clone the repository**: `git clone https://github.com/Nguyen-Hao-Khang/Traffic-Light-Cooperative.git`
-2.  **Open project**: Use STM32CubeIDE to open the source code.
-3.  **Build**: Compile the project to generate the `.hex` file.
-4.  **Simulate**: Load the compiled file into the **Proteus** schematic provided in the `simulation/` folder.
+1. **Clone the repository**: `git clone https://github.com/Nguyen-Hao-Khang/Traffic-Light-Cooperative.git`
+2. **Open project**: Use STM32CubeIDE to open the source code.
+3. **Build**: Compile the project to generate the `.hex` file.
+4. **Simulate**: Load the compiled file into the **Proteus** schematic provided in the `simulation/` folder.
