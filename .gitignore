@@ -53,3 +53,13 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# protues generated files
+*.pdsprj.KHANG.nguye.workspace
+*.pdspak
+
+
+
+
+
+

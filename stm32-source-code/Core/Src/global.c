@@ -13,7 +13,7 @@ int TIMER_CYCLE = 1;
 
 int timerFlash = 250;   // TIM (ms) for flashing leds
 int timerScan = 5;		// TIM (ms) for scaning 6 seven-segments
-int timer1sec = 500;	// TIM (ms) for countdown every 1 second
+int timer1sec = 1000;	// TIM (ms) for countdown every 1 second
 int timeOut = 5000;		// TIM (ms) for time out
 
 // 7SEG SCANNING

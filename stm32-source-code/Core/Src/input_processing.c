@@ -200,8 +200,6 @@ void Scan7Seg_Task(void) {
 }
 
 void Countdown_Task(void) {
-
-
     // State transitions for traffic phases
 	if (!pause_traffic)
 	{
@@ -352,6 +350,7 @@ void fsm_for_input_processing(void)
         switch (button3State) {
         case BUTTON_RELEASED:
             if (is_button_pressed(2)) {
+            	pause_traffic = 0;
                 prev_state = state;
                 state = INIT;
                 mode = 0;
