@@ -11,7 +11,7 @@ int timer_counter[NUM_TASKS] = {0};
 int timer_flag[NUM_TASKS] = {0};
 int TIMER_CYCLE = 1;
 
-int timerFlash = 250;   // TIM (ms) for flashing leds
+int timerFlash = 500;   // TIM (ms) for flashing leds
 int timerScan = 5;		// TIM (ms) for scaning 6 seven-segments
 int timer1sec = 1000;	// TIM (ms) for countdown every 1 second
 int timeOut = 5000;		// TIM (ms) for time out
