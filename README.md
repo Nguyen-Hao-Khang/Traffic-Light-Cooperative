@@ -47,4 +47,4 @@ The software is organized into modular components to ensure clean code and easy 
 1. **Clone the repository**: `git clone https://github.com/Nguyen-Hao-Khang/Traffic-Light-Cooperative.git`
 2. **Open project**: Use STM32CubeIDE to open the source code.
 3. **Build**: Compile the project to generate the `.hex` file.
-4. **Simulate**: Load the compiled file into the **Proteus** schematic provided in the `simulation/` folder.
+4. **Simulate**: Load the compiled file into the **Proteus** schematic provided in the `proteus-simulation/` folder.
