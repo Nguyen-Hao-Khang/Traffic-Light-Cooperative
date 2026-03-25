@@ -28,7 +28,7 @@ This project implements a sophisticated traffic light controller for a crossroad
 
 ## Circuit Schematic
 The system's electrical design and logic flow can be viewed online:
-* 🌐 **Interactive Diagram**: [View on Draw.io](https://app.diagrams.net/?url=https://drive.google.com/file/d/1U5ejvDiGQxj9fWeVYC71P-c48y6u7FNi/view?usp=sharing)
+* 🌐 **Interactive Diagram**: [View on Draw.io](https://drive.google.com/file/d/1U5ejvDiGQxj9fWeVYC71P-c48y6u7FNi/view?usp=sharing)
 
 ---
 
